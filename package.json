@@ -1,0 +1,32 @@
+{
+  "name": "fastify-otp-redis",
+  "version": "1.0.0",
+  "description": "This project was bootstrapped with Fastify-CLI.",
+  "main": "app.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node --test test/**/*.test.js",
+    "start": "fastify start -l info app.js",
+    "dev": "fastify start -w -l info -P app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fastify/autoload": "^6.0.0",
+    "@fastify/redis": "^7.0.2",
+    "@fastify/sensible": "^6.0.0",
+    "@fastify/swagger": "^9.5.1",
+    "@fastify/swagger-ui": "^5.2.3",
+    "fastify-cli": "^7.4.0",
+    "fastify-plugin": "^5.0.0",
+    "kavenegar": "^1.1.4",
+    "redis": "^5.8.2",
+    "zod": "^4.1.11"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^10.0.0"
+  }
+}
